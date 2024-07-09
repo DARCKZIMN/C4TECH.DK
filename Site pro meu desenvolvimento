@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C4tech.Dk - Meus Jogos e Apps</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #333;
+        }
+        .store-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>C4tech.Dk</h1>
+    </header>
+    <nav>
+        <a href="#jogos">Jogos e Apps</a>
+        <a href="#loja">Loja</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <div id="jogos" class="section">
+            <h2>Meus Jogos e Apps</h2>
+            <p>Aqui você encontra todos os jogos e aplicativos desenvolvidos por mim.</p>
+            <!-- Adicione seus jogos e apps aqui -->
+        </div>
+        <div id="loja" class="section">
+            <h2>Loja</h2>
+            <p>Confira nossos produtos disponíveis para compra.</p>
+            <div class="store-item">
+                <h3>Produto 1</h3>
+                <p>Descrição do Produto 1.</p>
+                <button>Comprar</button>
+            </div>
+            <div class="store-item">
+                <h3>Produto 2</h3>
+                <p>Descrição do Produto 2.</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+        <div id="contato" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo através do formulário abaixo.</p>
+            <form action="https://example.com/submit-form" method="post">
+                <label for="name">Nome:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 C4tech.Dk - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
